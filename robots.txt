@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.trubig.cat/sitemap.xml
+
+# Optimización para buscadores
+Crawl-delay: 1
+
+# Páginas principales
+Allow: /
+Allow: /assets/images/
+Allow: /styles.css
+Allow: /script.js
+
+# Evitar duplicados
+Disallow: /*?
+Disallow: /#
