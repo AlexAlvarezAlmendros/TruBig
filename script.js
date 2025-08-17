@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (!img.classList.contains('service-image') && 
                     !img.classList.contains('product-image') && 
                     !img.classList.contains('installation-image')) {
-                    img.style.opacity = '0.7';
                     img.style.transition = 'opacity 0.3s ease';
                 }
                 img.setAttribute('loading', 'lazy');
